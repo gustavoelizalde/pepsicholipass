@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn_upload{
+	width:316px;
+	height:30px;
+	cursor:pointer;
+	display:block;
+	}
+	.btn_upload .disabled{
+		cursor:default;
+		}
+	.btn_upload #label{
+		background:#FFF;
+		width:158px;
+		height:28px;
+		overflow:hidden;
+		color:#ccc;
+		font:normal 11px Arial, Helvetica, sans-serif;
+		display:block;
+		float:left;
+		padding:0px 10px;
+		line-height:28px;
+		margin-right:1px;
+		border:#ccc solid 1px;
+		}
+		.btn_upload:hover #label{
+			border:#ccc solid 1px;
+			color:#ccc;
+			}
+		.btn_upload.disabled #label{
+			border:#CCC solid 1px;
+			color:#666;
+			}
+		
+	.btn_upload a{
+		background:url(ico_download.png) center top no-repeat;
+		width:34px;
+		height:30px;
+		margin:0px;
+		display:block;
+		float:left;
+		}
+		.btn_upload:hover a{
+			background-position:center -30px;
+			}
+		.btn_upload.disabled a{
+			cursor:default;
+			background-position:center -60px;
+			}
+	
+	.btn_upload #loader{
+		width:70px;
+		overflow:hidden;
+		color:#fff;
+		font:normal 11px Arial, Helvetica, sans-serif;
+		display:none;
+		float:left;
+		line-height:30px;
+		margin-left:10px;
+		padding-left:20px;
+		background:url(ajax-loader.gif) left center no-repeat;
+		}
+		
+	.listItems li, .listItems_edit li{
+		border-top: 1px dashed #CCCCCC;
+    	margin-top: 15px;
+    	padding: 15px 0 0;
+		}
+		
+		.listItems li .crop, .listItems_edit li .crop{
+			margin-right:5px;
+			}
+		
+		.listItems li img, .listItems_edit li img{
+			height:100px;
+			float:left;
+			margin-right:20px;
+			}
+			
+		.listItems li a.deleteItem, .listItems_edit li a.deleteItem{
+			display:block;
+			width:16px;
+			height:16px;
+			background:url(ico_delete.png);
+			float:right;
+			margin-top:57px;
+			}

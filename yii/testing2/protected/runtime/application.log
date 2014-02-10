@@ -1,0 +1,487 @@
+2012/12/13 18:44:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_test.{{noticias}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{Noticias}}`.
+2012/12/13 18:44:56 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{Noticias}}" for active record class "Noticias" cannot be found in the database.' in D:\yii\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Noticias))
+#1 D:\yii\framework\testing2\protected\models\Noticias.php(6): CActiveRecord::model('Noticias')
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(6): Noticias::model()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/site/index
+---
+2012/12/13 18:45:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_test.{{noticias}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{noticias}}`.
+2012/12/13 18:45:26 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{noticias}}" for active record class "Noticias" cannot be found in the database.' in D:\yii\framework\db\ar\CActiveRecord.php:2312
+Stack trace:
+#0 D:\yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Noticias))
+#1 D:\yii\framework\testing2\protected\models\Noticias.php(6): CActiveRecord::model('Noticias')
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(6): Noticias::model()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/site/index
+---
+2012/12/14 11:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "noticias".' in D:\yii\framework\web\CController.php:484
+Stack trace:
+#0 D:\yii\framework\web\CController.php(271): CController->missingAction('noticias')
+#1 D:\yii\framework\web\CWebApplication.php(283): CController->run('noticias')
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/notici...')
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/noticias/editar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 11:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "noticias".' in D:\yii\framework\web\CController.php:484
+Stack trace:
+#0 D:\yii\framework\web\CController.php(271): CController->missingAction('noticias')
+#1 D:\yii\framework\web\CWebApplication.php(283): CController->run('noticias')
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/notici...')
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/noticias/editar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 11:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "noticias".' in D:\yii\framework\web\CController.php:484
+Stack trace:
+#0 D:\yii\framework\web\CController.php(271): CController->missingAction('noticias')
+#1 D:\yii\framework\web\CWebApplication.php(283): CController->run('noticias')
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/notici...')
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/noticias/editar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 12:01:07 [error] [exception.CException] exception 'CException' with message 'NoticiasController contains improperly nested widget tags in its view "D:\yii\framework\testing2\protected\views\noticias\editar.php". A CActiveForm widget does not have an endWidget() call.' in D:\yii\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#1 D:\yii\framework\web\CController.php(783): CController->renderPartial('editar', Array, true)
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('editar', Array)
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii\framework\web\CWebApplication.php(283): CController->run('editar')
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/editar')
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 12:01:09 [error] [exception.CException] exception 'CException' with message 'NoticiasController contains improperly nested widget tags in its view "D:\yii\framework\testing2\protected\views\noticias\editar.php". A CActiveForm widget does not have an endWidget() call.' in D:\yii\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#1 D:\yii\framework\web\CController.php(783): CController->renderPartial('editar', Array, true)
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('editar', Array)
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii\framework\web\CWebApplication.php(283): CController->run('editar')
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/editar')
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 12:01:14 [error] [exception.CException] exception 'CException' with message 'NoticiasController contains improperly nested widget tags in its view "D:\yii\framework\testing2\protected\views\noticias\editar.php". A CActiveForm widget does not have an endWidget() call.' in D:\yii\framework\web\CBaseController.php:102
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#1 D:\yii\framework\web\CController.php(783): CController->renderPartial('editar', Array, true)
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('editar', Array)
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\yii\framework\web\CWebApplication.php(283): CController->run('editar')
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/editar')
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 13:05:44 [error] [php] Invalid argument supplied for foreach() (D:\yii\framework\testing2\protected\views\noticias\index.php:19)
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): NoticiasController->renderFile()
+#1 D:\yii\framework\web\CController.php(783): NoticiasController->renderPartial()
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(17): NoticiasController->render()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii\framework\web\CController.php(287): NoticiasController->runAction()
+#6 D:\yii\framework\web\CController.php(266): NoticiasController->runActionWithFilters()
+#7 D:\yii\framework\web\CWebApplication.php(283): NoticiasController->run()
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+2012/12/14 13:05:56 [error] [php] Invalid argument supplied for foreach() (D:\yii\framework\testing2\protected\views\noticias\index.php:19)
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): NoticiasController->renderFile()
+#1 D:\yii\framework\web\CController.php(783): NoticiasController->renderPartial()
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(17): NoticiasController->render()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii\framework\web\CController.php(287): NoticiasController->runAction()
+#6 D:\yii\framework\web\CController.php(266): NoticiasController->runActionWithFilters()
+#7 D:\yii\framework\web\CWebApplication.php(283): NoticiasController->run()
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+2012/12/14 13:06:05 [error] [php] Invalid argument supplied for foreach() (D:\yii\framework\testing2\protected\views\noticias\index.php:19)
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): NoticiasController->renderFile()
+#1 D:\yii\framework\web\CController.php(783): NoticiasController->renderPartial()
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(17): NoticiasController->render()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii\framework\web\CController.php(287): NoticiasController->runAction()
+#6 D:\yii\framework\web\CController.php(266): NoticiasController->runActionWithFilters()
+#7 D:\yii\framework\web\CWebApplication.php(283): NoticiasController->run()
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+2012/12/14 13:07:28 [error] [exception.CException] exception 'CException' with message 'NoticiasController no ha podido encontrar la vista "noticias/index" solicitada.' in D:\yii\framework\web\CController.php:879
+Stack trace:
+#0 D:\yii\framework\web\CController.php(783): CController->renderPartial('noticias/index', NULL, true)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(17): CController->render('noticias/index')
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('editar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/editar')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/editar?id=1
+---
+2012/12/14 13:09:33 [error] [php] Invalid argument supplied for foreach() (D:\yii\framework\testing2\protected\views\noticias\index.php:19)
+Stack trace:
+#0 D:\yii\framework\web\CController.php(870): NoticiasController->renderFile()
+#1 D:\yii\framework\web\CController.php(783): NoticiasController->renderPartial()
+#2 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(17): NoticiasController->render()
+#3 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionEditar()
+#4 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\yii\framework\web\CController.php(287): NoticiasController->runAction()
+#6 D:\yii\framework\web\CController.php(266): NoticiasController->runActionWithFilters()
+#7 D:\yii\framework\web\CWebApplication.php(283): NoticiasController->run()
+#8 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/editar?id=1
+2012/12/14 13:29:46 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in D:\yii\framework\db\ar\CActiveRecord.php:1010
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(33): CActiveRecord->insert(Array)
+#1 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#2 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#6 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#7 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 13:34:45 [error] [exception.CException] exception 'CException' with message 'NoticiasController no ha podido encontrar la vista "insetar" solicitada.' in D:\yii\framework\web\CController.php:879
+Stack trace:
+#0 D:\yii\framework\web\CController.php(783): CController->renderPartial('insetar', NULL, true)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(34): CController->render('insetar')
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 13:34:58 [error] [exception.CException] exception 'CException' with message 'NoticiasController no ha podido encontrar la vista "insetar" solicitada.' in D:\yii\framework\web\CController.php:879
+Stack trace:
+#0 D:\yii\framework\web\CController.php(783): CController->renderPartial('insetar', NULL, true)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(34): CController->render('insetar')
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/14 13:43:59 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in D:\yii\framework\db\ar\CActiveRecord.php:1010
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): CActiveRecord->insert(Array)
+#1 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#2 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#6 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#7 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/14 13:45:13 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in D:\yii\framework\db\ar\CActiveRecord.php:1010
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): CActiveRecord->insert(Array)
+#1 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#2 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#6 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#7 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/14 13:48:08 [error] [exception.CDbException] exception 'CDbException' with message 'El active record no puede ser insertado a la base de datos porque no es nuevo.' in D:\yii\framework\db\ar\CActiveRecord.php:1010
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): CActiveRecord->insert(Array)
+#1 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#2 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#6 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#7 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/14 14:03:36 [error] [exception.CException] exception 'CException' with message 'EditForm and its behaviors do not have a method or closure named "setIsNewRecord".' in D:\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): CComponent->__call('setIsNewRecord', Array)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): EditForm->setIsNewRecord(true)
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/14 14:04:13 [error] [exception.CException] exception 'CException' with message 'EditForm and its behaviors do not have a method or closure named "Save".' in D:\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(38): CComponent->__call('Save', Array)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(38): EditForm->Save()
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/14 14:06:20 [error] [exception.CException] exception 'CException' with message 'EditForm and its behaviors do not have a method or closure named "insert".' in D:\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): CComponent->__call('insert', Array)
+#1 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(37): EditForm->insert()
+#2 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionInsertar()
+#3 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\yii\framework\web\CWebApplication.php(283): CController->run('insertar')
+#7 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/insert...')
+#8 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/insertar
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/insertar
+---
+2012/12/17 13:58:57 [error] [php] include(D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\yii\framework\YiiBase.php:397)
+Stack trace:
+#0 D:\yii\framework\testing2\protected\components\Controller.php(29): spl_autoload_call()
+#1 D:\yii\framework\web\CWebApplication.php(282): SiteController->init()
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/site/index
+2012/12/17 13:58:59 [error] [php] include(D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\yii\framework\YiiBase.php:397)
+Stack trace:
+#0 D:\yii\framework\testing2\protected\components\Controller.php(29): spl_autoload_call()
+#1 D:\yii\framework\web\CWebApplication.php(282): SiteController->init()
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/site/index
+2012/12/17 13:59:02 [error] [php] include(D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (D:\yii\framework\YiiBase.php:397)
+Stack trace:
+#0 D:\yii\framework\testing2\protected\components\Controller.php(29): spl_autoload_call()
+#1 D:\yii\framework\web\CWebApplication.php(282): SiteController->init()
+#2 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#3 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/
+2012/12/17 14:00:19 [error] [exception.CException] exception 'CException' with message 'Cannot find Bootstrap component' in D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:73
+Stack trace:
+#0 D:\yii\framework\zii\widgets\CPortlet.php(95): ELangPick->renderContent()
+#1 D:\yii\framework\web\CBaseController.php(174): CPortlet->run()
+#2 D:\yii\framework\testing2\protected\views\noticias\index.php(33): CBaseController->widget('ext.LanguagePic...', Array)
+#3 D:\yii\framework\web\CBaseController.php(127): require('D:\yii\framewor...')
+#4 D:\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\yii\framewor...', Array, true)
+#5 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#6 D:\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('index', Array)
+#8 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#9 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#14 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/
+---
+2012/12/17 14:03:18 [error] [exception.CException] exception 'CException' with message 'Cannot find Bootstrap component' in D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:73
+Stack trace:
+#0 D:\yii\framework\zii\widgets\CPortlet.php(95): ELangPick->renderContent()
+#1 D:\yii\framework\web\CBaseController.php(174): CPortlet->run()
+#2 D:\yii\framework\testing2\protected\views\noticias\index.php(33): CBaseController->widget('ext.LanguagePic...', Array)
+#3 D:\yii\framework\web\CBaseController.php(127): require('D:\yii\framewor...')
+#4 D:\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\yii\framewor...', Array, true)
+#5 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#6 D:\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('index', Array)
+#8 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#9 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#14 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/
+---
+2012/12/17 14:03:39 [error] [exception.CException] exception 'CException' with message 'Cannot find Bootstrap component' in D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:73
+Stack trace:
+#0 D:\yii\framework\zii\widgets\CPortlet.php(95): ELangPick->renderContent()
+#1 D:\yii\framework\web\CBaseController.php(174): CPortlet->run()
+#2 D:\yii\framework\testing2\protected\views\noticias\index.php(33): CBaseController->widget('ext.LanguagePic...', Array)
+#3 D:\yii\framework\web\CBaseController.php(127): require('D:\yii\framewor...')
+#4 D:\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\yii\framewor...', Array, true)
+#5 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#6 D:\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('index', Array)
+#8 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#9 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#14 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/
+---
+2012/12/17 14:06:03 [error] [exception.CException] exception 'CException' with message 'Cannot find Bootstrap component' in D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:73
+Stack trace:
+#0 D:\yii\framework\zii\widgets\CPortlet.php(95): ELangPick->renderContent()
+#1 D:\yii\framework\web\CBaseController.php(174): CPortlet->run()
+#2 D:\yii\framework\testing2\protected\views\noticias\index.php(33): CBaseController->widget('ext.LanguagePic...', Array)
+#3 D:\yii\framework\web\CBaseController.php(127): require('D:\yii\framewor...')
+#4 D:\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\yii\framewor...', Array, true)
+#5 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#6 D:\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('index', Array)
+#8 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#9 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#14 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---
+2012/12/17 14:07:35 [error] [php] Illegal offset type (D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:55)
+Stack trace:
+#0 D:\yii\framework\web\CWebApplication.php(282): NoticiasController->init()
+#1 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#2 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+2012/12/17 14:08:26 [error] [php] Illegal offset type (D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:55)
+Stack trace:
+#0 D:\yii\framework\web\CWebApplication.php(282): NoticiasController->init()
+#1 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#2 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+2012/12/17 14:08:29 [error] [php] Illegal offset type (D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:55)
+Stack trace:
+#0 D:\yii\framework\web\CWebApplication.php(282): NoticiasController->init()
+#1 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#2 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 D:\yii\framework\testing2\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+2012/12/17 14:13:24 [error] [exception.CException] exception 'CException' with message 'Cannot find Bootstrap component' in D:\yii\framework\testing2\protected\extensions\LangPick\ELangPick.php:73
+Stack trace:
+#0 D:\yii\framework\zii\widgets\CPortlet.php(95): ELangPick->renderContent()
+#1 D:\yii\framework\web\CBaseController.php(174): CPortlet->run()
+#2 D:\yii\framework\testing2\protected\views\noticias\index.php(39): CBaseController->widget('ext.LanguagePic...', Array)
+#3 D:\yii\framework\web\CBaseController.php(127): require('D:\yii\framewor...')
+#4 D:\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\yii\framewor...', Array, true)
+#5 D:\yii\framework\web\CController.php(870): CBaseController->renderFile('D:\yii\framewor...', Array, true)
+#6 D:\yii\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#7 D:\yii\framework\testing2\protected\controllers\NoticiasController.php(11): CController->render('index', Array)
+#8 D:\yii\framework\web\actions\CInlineAction.php(50): NoticiasController->actionIndex()
+#9 D:\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#10 D:\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#11 D:\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#13 D:\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('noticias/index')
+#14 D:\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 D:\yii\framework\testing2\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii/framework/testing2/index.php/noticias/index
+HTTP_REFERER=http://192.168.1.100/yii/framework/testing2/index.php/noticias/index
+---

@@ -1,0 +1,518 @@
+/*
+ * HTML5 Boilerplate
+ *
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+@font-face {
+    font-family: 'futurabold';
+    src: url('../font/futura-bold.eot');
+    src: url('../font/futura-bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/futura-bold.woff') format('woff'),
+         url('../font/futura-bold.ttf') format('truetype'),
+         url('../font/futura-bold.svg#futurabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'futura_lt_btlight';
+    src: url('../font/futurabt-light.eot');
+    src: url('../font/futurabt-light.eot?#iefix') format('embedded-opentype'),
+         url('../font/futurabt-light.woff') format('woff'),
+         url('../font/futurabt-light.ttf') format('truetype'),
+         url('../font/futurabt-light.svg#futura_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#container{
+	width:810px;
+	overflow:hidden;
+	margin:0 auto;
+	}
+	#container.calendar{
+		height:702px;
+		background:url(../img/bg_calendar.jpg) no-repeat;
+		}
+		#container.calendar .wr{
+			width:570px;
+			margin:0px auto;
+			margin-top:190px;
+			}
+			#container.calendar .wr .navmes{
+				position:absolute;
+				}
+				#container.calendar .wr .navmes a{
+					display:block;
+					width:27px;
+					height:25px;
+					background:url(../img/sp_nav_mes.png) no-repeat 0 -12px;
+					position:relative;
+					left:155px;
+					top:11px;
+				}
+					#container.calendar .wr .navmes a.next{
+						left:388px;
+						top:-14px;
+						background-position:-188px -12px;
+						}
+					#container.calendar .wr .navmes a span{
+						display:none;
+						}
+						
+	
+	#container.form{
+		height:702px;
+		background:url(../img/bg_form.jpg) no-repeat;
+		}
+		#container.form form{
+			display:block;
+			width:700px;
+			margin-top:290px;
+			margin-left:43px;
+			font:normal 14px 'futura_lt_btlight';
+			}
+			#container.form form div{
+				display:block;
+				margin-bottom:8px;
+				}
+				#container.form form div.lastfield, #container.form form div.check{
+					margin-top:20px;
+					color:#FFF;
+					}
+					#container.form form div.check{
+						margin-top:40px;
+						}
+					#container.form form div.lastfield{
+						padding-left:158px;
+						margin-top:0;
+						}
+			#container.form form div label{
+				margin-right:40px;
+				}
+			#container.form form input[type=text], #container.form form textarea{
+				font:normal 14px 'futura_lt_btlight';
+				color:#000;
+				background:#FFF;
+				padding:6px 10px;
+				border:none;
+				width:360px;
+				border-radius:4px;
+				}
+				#container.form form textarea{
+					resize:none;
+					height:50px;
+					}
+			#container.form form input[type=image]{
+				position:relative;
+				top:10px;
+				}
+	
+	
+	#container table{
+		width:570px;
+		}
+	#container table td{
+		border:none;
+		}
+		
+		#container table thead th{
+			color:#5fbdea;
+			font:normal 23px 'futura_lt_btlight';
+			vertical-align:text-top;
+			text-align:center;
+			}
+		#container table tbody tr{
+			}
+		#container table tbody td{
+			background:url(../img/bg_day.png) no-repeat 50% 50%;
+			width:79px;
+			height:53px;
+			font:normal 15px 'futurabold';
+			vertical-align:text-top;
+			color:#FFF;
+		}
+			#container table tbody td.active{
+				background:url(../img/bg_day_active.png) no-repeat 50% 50%;
+                                cursor: pointer;
+				}
+				#container table tbody td.selected{
+				background:url(../img/bg_day_selected.png) no-repeat 50% 50% !important;
+                                cursor: pointer;
+				}
+			#container table tbody td span{
+				position:absolute;
+				margin-left:52px;
+				margin-top:4px;
+				width:22px;
+				text-align:right;
+				}
+			#container table tbody td cite{
+				font-family:Arial, Helvetica, sans-serif;
+				position:absolute;
+				overflow:hidden;
+				width:60px;
+				/*height:43px;*/
+				word-wrap:break-word;
+				line-height:12px;
+				font-size:11px;
+				margin-left:4px;
+				margin-top:23px;
+				}
+
+ul.mons{
+	font:normal 20px 'futurabold';
+	color:#FFF;
+	display:block;
+	width:190px;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	}
+	ul.mons li{
+		padding:0;
+		background:url(../img/sp_nav_mes2.png) repeat-x -31px 0;
+		display:block;
+		padding:14px 0;
+		width:190px;
+		height:30px;
+		text-align:center;
+		overflow:hidden;
+		}
+		.windows ul.mons li{
+			padding:8px 0;
+			}
+		
+a.continuar{
+	display:block;
+	width:176px;
+	height:30px;
+	margin:10px 0;
+	background:url(../img/btn_siguiente.png) no-repeat;
+	}
+	.calendar a.continuar{
+		float:right;
+		}
+	a.continuar span{
+		display:none;
+	}
+
+#ticket{
+	display:block;
+	width:460px;
+	height:200px;
+	background:url(../img/ticket.png) no-repeat;
+}
+	#ticket h1{
+		display:block;
+		width:368px;
+		margin:0px auto;
+		text-align:center;
+		font: normal 20px 'futurabold';
+		position:relative;
+		top:80px;
+		left:31px;
+		color:#d2333b;
+		}
+	#ticket a{
+		display:block;
+		width:129px;
+		height:22px;
+		position:absolute;
+		margin-top:147px;
+		margin-left:223px;
+		background:url(../img/btn_invita.png) no-repeat;
+		}
+		#ticket a span{
+			display:none;
+		}
+
+
+#ui-datepicker-div{
+	font-size:12px !important;
+	}
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

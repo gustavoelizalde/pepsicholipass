@@ -1,0 +1,192 @@
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:02 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:57:34 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:59:38 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:59:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 15:59:39 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:01 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos`
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (226)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+in D:\manifesto_CMS_V.7\backend.php (13)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW COLUMNS FROM `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `contenidos_categorias`
+in D:\manifesto_CMS_V.7\protected\models\ContenidosCategorias.php (30)
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (29)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos_categorias` `t` WHERE `t`.`id`='1' LIMIT 1
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (36)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
+2013/02/07 16:00:09 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `contenidos` `t` WHERE contenidos_categorias_id LIKE :ycp0 LIMIT 10. Bound with :ycp0='%1%'
+in D:\manifesto_CMS_V.7\protected\views\back\contenidos\admin.php (96)
+in D:\manifesto_CMS_V.7\protected\controllers\back\ContenidosController.php (233)
+in D:\manifesto_CMS_V.7\protected\components\WebApplicationEndBehavior.php (26)
