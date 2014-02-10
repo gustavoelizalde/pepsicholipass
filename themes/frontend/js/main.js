@@ -15,7 +15,7 @@ $(document).ready(function(e) {
 
 function LogIn() {
     FB.init({
-        appId: '623431217672700', // App ID from the App Dashboard
+        appId: '259251744243981', // App ID from the App Dashboard
         status: true, // check the login status upon init?
         cookie: true, // set sessions cookies to allow your server to access the session?
         xfbml: true  // parse XFBML tags on this page?
