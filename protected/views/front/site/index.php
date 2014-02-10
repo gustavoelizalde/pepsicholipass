@@ -5,7 +5,7 @@
 
 	if ($pos == true) {
 		//cambiar esta url si se esta en modo prueba
-		echo '<script>window.top.location.href = "https://www.facebook.com/pepsipr/app_623431217672700";</script>';
+		echo '<script>window.top.location.href = "https://www.facebook.com/contacticatest/app_259251744243981";</script>';
 	}
 ?>
 <body>
