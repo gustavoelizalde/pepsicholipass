@@ -33,7 +33,8 @@ return array(
     'components' => array(
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=weareusr_pepsicholipass',
+            //'connectionString' => 'mysql:host=localhost;dbname=weareusr_pepsicholipass',
+            'connectionString' => 'mysql:host=69.167.154.8;dbname=weareusr_pepsicholipass',
             'emulatePrepare' => true,
             'username' => 'weareusr_pepsi',
             'password' => 'sim1386261',
