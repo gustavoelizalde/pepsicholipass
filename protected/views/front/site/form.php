@@ -6,14 +6,14 @@
             <form id="userdate" action="<?php echo Yii::app()->createUrl('site/save'); ?>">
                 <input type="hidden" name="Registrados[facebookId]" id="idfb">
                 <input type="hidden" name="Registrados[contenidos_id]" value="<?php echo intval($_GET['id']); ?>" id="idContenido">
-                <div><input name="Registrados[nombre]" type="text" id="nombre"></div>
-                <div><input name="Registrados[apellido]" type="text" id="apellido"></div>
-                <div><input name="Registrados[email]" type="text" id="email"></div>
-                <div><input name="Registrados[telefono]" type="text" id="tel"></div>
+                <div><input name="Registrados[nombre]" type="text" id="nombre" placeholder="Nombre"></div>
+                <div><input name="Registrados[apellido]" type="text" id="apellido" placeholder="Apellido"></div>
+                <div><input name="Registrados[email]" type="text" id="email" placeholder="Email"></div>
+                <div><input name="Registrados[telefono]" type="text" id="tel" placeholder="Telefono"></div>
                 <div>
                     <textarea name="Registrados[comentario]" id="paravos"></textarea>
                 </div>
-                <div><input name="Registrados[birthday]" type="text" id="birday"></div>
+                <div><input name="Registrados[birthday]" type="text" id="birday" placeholder="Cumpleaños"></div>
                 <div class="check"><input name="terms" type="checkbox" id="terms"> <label for="terms">He leído y acepto los términos y condiciones</label></div>
                 <div class="lastfield"> <input name="enviar" type="image" src="<?php echo Yii::app()->theme->baseUrl; ?>/img/btn_quiero.png" ></div>
             </form>
